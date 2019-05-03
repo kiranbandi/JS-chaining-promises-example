@@ -1,0 +1,45 @@
+#box {
+    height: 500px;
+    width: 500px;
+    background: #92d2e147;
+    border-radius: 20px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#box>span {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background: #a3d5a3;
+    top: 250px;
+    left: 250px;
+    border-radius: 60px 5px 5px 60px;
+}
+
+.left {
+    transform: rotate(180deg);
+}
+
+.right {
+    transform: rotate(0deg);
+}
+
+.top {
+    transform: rotate(-90deg);
+}
+
+.bottom {
+    transform: rotate(90deg);
+}
+
+#server-response {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+#server-response>span {
+    display: block;
+    margin-bottom: 10px;
+}
